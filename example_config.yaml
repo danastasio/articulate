@@ -1,0 +1,8 @@
+app:
+  environment: test
+  debug: false
+db:
+  username: 'dbuser'
+  password: 'dbpass'
+  hostname: 'dbhost'
+  database: 'dbdb'
