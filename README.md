@@ -6,10 +6,10 @@
 Articulate is an ORM that makes it very easy to work with database information in Python. Consider the following example:
 
 ```python
-user.where('user_id', 'huskyct').enrollments().select('course_id', 'user_id', 'role).get()
+user.where('user_id', 'alice').enrollments().select('course_id', 'user_id', 'role).get()
 ```
 
-This would fetch every course that the 'huskyct' user is enrolled in, and will return the values as a list of named tuples. This allows you to easily work with the data with very little overhead.
+This would fetch every course that the 'alice' user is enrolled in, and will return a collection of the user models. This allows you to easily work with the data with very little overhead.
 
 It is very easy to define relationships between tables using Articulate.
 
