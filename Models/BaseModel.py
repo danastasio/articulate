@@ -98,7 +98,7 @@ class BaseModel:
 						if len(str(key)) > longest:
 							longest = len(key)
 						if len(str(value)) > longest:
-							longest = len(value)
+							longest = len(str(value))
 				return longest + 4
 
 			def top_row():
